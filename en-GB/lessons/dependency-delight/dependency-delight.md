@@ -29,3 +29,10 @@ A virtual envoiment is esentalay a box where you project can you install and run
 
 ### pip
 pip is a tool that is useded to install the tools or 'packages', once you have created a virtual envoiment you will be alble to install packages. in this project we will be using the following commands, `pip install [packages name]`, `pip uninstall [package name]` and `pip freeze > [filename]`.
+
+# Step 1: setting up our working directory { .activity}
+the first thing that needs to be done is to create a space where we can start to work on our project. the first thing wee need to do is to create a new directory, to store our porjects in to create a directory use the command `mkdir [directory name]`. and then go into the directory (by useing `cd [directory name]`).
+
+# Step 2: createing a virtualenv { .activity}
+the next step is to set up the virtual envioment, you can do this by simply by ruuning the `virtualenv [envoiment name]` an exsample is shown here.
+![screenshot](createingvenu.png)
