@@ -51,7 +51,7 @@ the next step is to activate your newly created virtual envoiment this means tha
 ![screenshot](isolation.png)
 When python in used under normal situaltions there is the Python Standard Libary is also installed. when you use pip to install your dependency you will be installing your dependency to be in your Standard Libary (**red**) but if have a virtual envoiment activated, then the deppency will be installed to your virtualenv envoiment (**yellow**). addionaly any dependcy that is installed to an envoiment will not be detected when the virtual envoiment is not active.
 
-to activate you virtualenvoiment in linux you will need to use the following command `$ source [virtualenv name]/bin/activate` and on windows is `[virtualenv name]/bin/activate.bat` in both cases this will activate your your envoiment.
+to activate you virtualenvoiment in linux you will need to use the following command `$ source [virtualenv name]/bin/activate` and on windows is `[virtualenv name]/bin/activate.bat` in both cases this will activate your your envoiment, your console should then show the name of your envoiment in brackets at the beginnging of the current command. ![screenshot](active.png)
 
 
 # Links and Resources:
